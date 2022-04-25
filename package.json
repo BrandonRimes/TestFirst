@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "yarn": "^1.22.18"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "nyc --reporter=html --reporter=text mocha ./tests --require=./tests/test.helper --exit"
+  },
+  "name": "testfirst",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BrandonRimes/TestFirst.git",
+  "author": "Brandon Rimes <77939170+BrandonRimes@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0"
+  }
+}
