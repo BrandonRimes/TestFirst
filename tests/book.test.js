@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 const mocha = require("mocha")
 const chaiHttp = require("chai-http")
 chai.use(chaiHttp)
-const { app } = require("../server");
+const { app } = require("../app");
 
 //create book
 describe("bookRoute.js", () => {
