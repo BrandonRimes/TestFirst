@@ -28,6 +28,7 @@ describe("bookRoute.js", () => {
         chai.expect(response.status).to.eq(200);
         chai.expect(response.body._id).to.exist;
         chai.expect(response.body.checked).to.eq(true)
+    
         
     })
     // checked in
